@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(150deg, #E5EAE5, #465446);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    border: 1px solid #566756;
+    border-radius: 10px;
+}
+
+.user {
+    position: relative;
+    margin: 20px;
+}
+
+.login {
+    margin: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: #435543;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+
+.cuerpo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav {
+    width: 95%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    border-collapse: separate;
+}
+td {
+    padding: 5px;
+}
+
+.titulo {
+    border-bottom: 1px solid grey;
+}
+
+a {
+    text-decoration: none;
+}
+.formulario {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    background-color: white;
+    border: 1px solid #566756;
+}
+.formulario h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form div {
+    margin: 5px;
+}
+#submit {
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.cerrar {
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    padding: 6px;
+    border: 1px solid #666C66;
+    border-radius: 5px;
+    background-color: #7E837E;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.volver {
+    width: 300px;
+    height: 30px;
+    padding: 8px;
+    border: 1px solid #666C66;
+    background-color: #7E837E;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
